@@ -1,0 +1,33 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 0;
+    height: 100%;
+    padding-top: 60px;
+    background-color: color(black);
+    transition: 0.5s;
+    overflow-x: hidden;
+
+    &__list{
+        display: block;
+        font-family: 'reg';
+        transition: 0.3s;
+        padding: 8px 8px 8px 32px;
+
+        &-item a{
+            color: color(grey);
+
+            &:hover{
+                color: color(white);
+            }
+        }
+    }
+}
+.closebtn{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    color: color(white);
+}

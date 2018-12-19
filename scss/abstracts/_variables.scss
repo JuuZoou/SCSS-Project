@@ -1,0 +1,31 @@
+// ___SITE WRAPPER
+$wrp-width: 960px;
+
+// ___BREAKPOINTS
+$breakpoints:(
+    small:(max-width:500px),
+    medium:(max-width:700px),
+    large:(max-width:960px)
+);
+
+// ___COLORS
+$colors: (
+    white: #fff,
+    black: #010101,
+    light-black: #222222,
+    light-grey: #ebebeb,
+    grey: #898989,
+    accent: #fcdb00,
+    btn-hover: #dcc31a
+);
+
+// __ FONT-SIZES
+$font-sizes:(
+    xxs: 14px,
+    xs: 16px,
+    sm: 20px,
+    md: 22px,
+    lg: 24px,
+    xl: 32px,
+    hd: 48px
+);

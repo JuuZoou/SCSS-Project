@@ -1,0 +1,256 @@
+/*** Base SECTION ***/
+.main{
+    background-color: color(white);
+}
+    /*** Section HEADING ***/
+    .section__heading{
+        color: color(dark);
+        font-family: "bold";
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /*** Section PARAGRAPH ***/
+    .section__paragraph{
+        font-family: "reg";
+        color: color(grey);
+        text-align: center;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .section{
+        padding: 100px 0;
+
+        &__content{
+            margin-top: 120px;
+        }
+        &__item{
+            text-align: center;
+            width: 100%;
+
+            &-image{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &-heading{
+                color: color(black);
+                font-family: 'bold';
+            }
+            &-paragraph{
+                color: color(grey);
+                font-family: 'reg';
+            }
+        }
+        // FEATURES Section STYLES
+        &__features{
+            .section__item{
+                max-width: 33.33%;
+
+                .icon{
+                    font-size: 50px;
+                    margin-right: 30px;
+                }
+            }
+        }
+        // PRICING Section STYLES
+        &__pricing{
+            .section__item{
+                text-align: center;
+                padding: 0 10px;
+                max-width: 240px;
+
+                .icon{
+                    cursor: pointer;
+                    font-size: 38px;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                    background-color: color(light-grey);
+                    transition: 0.5s;
+    
+                    &:hover{
+                        color: color(white);
+                        background-color: color(black)
+                    }
+                }
+                &-price{
+                    position: relative;
+                    font-family: 'bold';
+                    margin: 30px 0 10px 0;
+    
+                    &::before{
+                        position: absolute;
+                        left: 50%;
+                        bottom: -10px;
+                        transform: translate(-50%, 0);
+                        content: '';
+                        width: 50px;
+                        height: 2px;
+                        background-color: color(black);
+                    }
+                }
+                &-date{
+                    color: color(grey);
+                    margin-bottom: 30px;
+                }
+                .button{
+                    padding: 10px 0;
+                    width: 140px;
+                }
+            }
+        }
+        // WORK Section STYLES
+        &__work{
+            .section__content:last-child{
+                margin-top: 40px;
+            }
+            .section__item{
+                cursor: pointer;
+                max-width: 225px;
+                margin-right: 10px;
+
+                &:first-child{
+                    padding-left: 0;
+                }
+                &::last-child{
+                    padding-right: 0;
+                }
+                &-date{
+                    position: absolute;
+                    bottom: 5px;
+                    right: 10px;
+                    color: color(white);
+                    margin-bottom: 0;
+                }
+                &-view{
+                    position: absolute;
+                    bottom: 5px;
+                    left: 10px;
+                    color: color(white);
+                }
+                &-image{
+                    height: 225px;
+                }
+                &-image:hover::before, 
+                &-image:hover::after{
+                    display: flex;
+                }
+                &-image::before{
+                    display: none;
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    background-color: color(light-black);
+                }
+                &-image::after{
+                    display: none;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    content: "";
+                    z-index: 1;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: color(white);
+                }
+            }
+        }
+        // TEAM Section STYLES 
+        &__team{
+            width: 100%;
+
+            .section__item{
+                max-width: 170px;
+                margin-right: 10px;
+
+                .image-round{
+                    border-radius: 50%;
+                }
+                &-paragraph-two{
+                    color: color(black);
+                    font-family: 'reg';
+                    text-align: center;
+                    min-width: 170px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        // STATS Section STYLES
+        &__stats{
+            .section__item{
+                &-image{
+                    max-width: 105px;
+                }
+                &-paragraph-two{
+                    position: relative;
+                    color: color(grey);
+                    font-family: 'reg';
+                    width: 100%;
+                    max-width: 480px;
+                    margin-top: 30px;
+                    box-sizing: content-box;
+
+                    // &::before{
+                    //     position: absolute;
+                    //     top: 0;
+                    //     left: -70px;
+                    //     content: '\f10d';
+                    //     font-family: "Font Awesome 5 Free";
+                    //     font-weight: 900;
+                    // }
+                    // &::after{
+                    //     position: relative;
+                    //     bottom: 0;
+                    //     right: -70px;
+                    //     content: '\f10e';
+                    //     font-family: "Font Awesome 5 Free";
+                    //     font-weight: 900;
+                    // }
+                }
+            }
+        }
+        // STATS Section STYLES
+        &__contact{
+            .section__content{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                .input__text, .input__textarea{
+                    max-width: 480px;
+                    margin-bottom: 25px;
+                }
+                .input__textarea{
+                    height: 200px;
+                }
+                .button{
+                    color: color(white);
+                    padding: 10px 20px;
+                    background-color: color(black);
+                }
+
+                &:last-child{
+                    margin-top: 15px;
+                }
+            }
+            .section__item{
+                max-width: 160px;
+                margin: 30px;
+
+                &-heading{
+                    font-family: 'reg';
+                }
+            }
+        }
+    }

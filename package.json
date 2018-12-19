@@ -1,0 +1,22 @@
+{
+  "name": "project-scss",
+  "version": "1.0.0",
+  "description": "Environment for SCSS Project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/JuuZoou/SCSS-Project.git"
+  },
+  "author": "Mikheil Gigauri",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}

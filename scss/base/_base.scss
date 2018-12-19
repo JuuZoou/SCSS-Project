@@ -1,0 +1,50 @@
+/*** FONTS SIZE TEMPALTE ***/
+@each $key,$value in $font-sizes{
+    .font-#{$key}{
+        font-size:$value;
+    }
+}
+/*** Site Wrapper ***/
+.wrapper{
+    width: 100%;
+    max-width: $wrp-width;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/*** Flex Boxes ***/
+.fl{
+    display: flex;
+}
+.fl-jus-bet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fl-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fl-dir-col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fl-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.fl-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*** ICONS ***/
+.icons{
+    cursor: pointer;
+    color: color(light-black);
+    transition: 0.3s;
+
+    &:hover{
+        color: color(grey);
+    }
+}

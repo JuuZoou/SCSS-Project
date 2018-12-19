@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project SCSS</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+</head>
+<body>
+    <nav class="nav" id="sideNav">
+        <ul class="nav__list">
+            <a class="closebtn font-md" href="javascript:void(0)" onclick="closeNav()"><i class="fas fa-times"></i></a>
+            <li class="nav__list-item font-md"><a href="#">Main</a></li>
+            <li class="nav__list-item font-md"><a href="#">Features</a></li>
+            <li class="nav__list-item font-md"><a href="#">Pricing</a></li>
+            <li class="nav__list-item font-md"><a href="#">Works</a></li>
+            <li class="nav__list-item font-md"><a href="#">Team</a></li>
+            <li class="nav__list-item font-md"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="wrapper fl-dir-col fl-jus-bet">
+            <div class="header--top fl-jus-bet">
+                <div class="icons font-md"><a href="javascript:void(0)" onclick="openNav()"><i class="fas fa-bars"></i></a></div>
+                <div class="header__logo fl-center"><img class="header__logo-img" src="./assets/img/logo.png" alt="Logo">tinyone</div>
+                <div class="header__social font-md fl-jus-bet">
+                    <div class="icons"><i class="fab fa-facebook-f"></i></div>
+                    <div class="icons"><i class="fab fa-twitter"></i></div>
+                    <div class="icons"><i class="fab fa-google-plus"></i></div>
+                    <div class="icons"><i class="fab fa-pinterest"></i></div>
+                </div>
+            </div>
+            <div class="header__text">
+                <h1 class="section__heading font-hd">Inspire your inspiration</h1>
+                <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <button class="button font-md">Get Start</button>
+            </div>
+            <div class="header--bottom fl-center">
+                <a href="#main"><div class="icons font-xl"><i class="fas fa-long-arrow-alt-down"></i></div></a>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="wrapper fl-dir-col">
+            <section class="section section__features">
+                <h2 class="section__heading font-xl">Tinyone features</h2>
+                <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <div class="section__content fl">
+                    <div class="section__item fl-start">
+                        <div class="icon"><i class="fas fa-tablet-alt"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-md">Fully Responsive</div>
+                            <div class="section__item-paragraph font-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</div>
+                        </div>
+                    </div>
+                    <div class="section__item fl-start">
+                        <div class="icon"><i class="far fa-lemon"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-md">Fully Responsive</div>
+                            <div class="section__item-paragraph font-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</div>
+                        </div>
+                    </div>
+                    <div class="section__item fl-start">
+                        <div class="icon"><i class="far fa-folder"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-md">Fully Responsive</div>
+                            <div class="section__item-paragraph font-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__content fl">
+                    <div class="section__item fl-start">
+                        <div class="icon"><i class="fas fa-code"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-md">Fully Responsive</div>
+                            <div class="section__item-paragraph font-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</div>
+                        </div>
+                    </div>
+                    <div class="section__item fl-start">
+                        <div class="icon"><i class="far fa-envelope"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-md">Fully Responsive</div>
+                            <div class="section__item-paragraph font-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</div>
+                        </div>
+                    </div>
+                    <div class="section__item fl-start">
+                        <div class="icon"><i class="far fa-bookmark"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-md">Fully Responsive</div>
+                            <div class="section__item-paragraph font-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__pricing">
+                <h2 class="section__heading font-xl">Pricing And Free Trial</h2>
+                <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <div class="section__content fl">
+                    <div class="section__item fl-dir-col">
+                        <div class="icon fl-center"><i class="fas fa-tablet-alt"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-lg">Basic</div>
+                            <div class="section__item-paragraph font-xxs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                            <div class="section__item-price font-xl">FREE</div>
+                            <div class="section__item-date font-xs">free forever</div>
+                            <button class="button font-xs">Get Free Now</button>
+                        </div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="icon fl-center"><i class="fas fa-desktop"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-lg">Standard</div>
+                            <div class="section__item-paragraph font-xxs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                            <div class="section__item-price font-xl">$99</div>
+                            <div class="section__item-date font-xs">month</div>
+                            <button class="button font-xs">Upgrade</button>
+                        </div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="icon fl-center"><i class="fas fa-laptop"></i></div>
+                        <div class="section__item-text">
+                            <div class="section__item-heading font-lg">Enterprise</div>
+                            <div class="section__item-paragraph font-xxs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                            <div class="section__item-price font-xl">$199</div>
+                            <div class="section__item-date font-xs">month</div>
+                            <button class="button font-xs">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__work">
+                <h2 class="section__heading font-xl">Our Works</h2>
+                <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <div class="section__content fl">
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp1.png" alt="Work #1">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp7.png" alt="Work #2">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp6.png" alt="Work #3">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp5.png" alt="Work #4">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                </div>
+                <div class="section__content fl">
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp4.png" alt="Work #5">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp3.png" alt="Work #6">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp2.png" alt="Work #7">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img src="./assets/img/work/mykomp1.png" alt="Work #8">
+                            <div class="section__item-view font-xs fl-start"><i class="far fa-eye font-md"></i>&nbsp;&nbsp;279</div>
+                            <div class="section__item-date font-xs fl-start">07/03/24&nbsp;&nbsp;<i class="far fa-clock font-md"></i></div>
+                        </div>
+                        <div class="section__item-heading font-md">Full Responsive</div>
+                        <div class="section__item-paragraph font-xs">Design / Branding</div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__team">
+                <h2 class="section__heading font-xl">Our team</h2>
+                <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <div class="section__content fl-jus-bet">
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img class="image-round" src="./assets/img/team/person1.png" alt="John Doe">
+                        </div><br>
+                        <div class="section__item-heading font-md">John Doe</div>
+                        <div class="section__item-paragraph font-xs">UI Designer</div><br>
+                        <div class="section__item-paragraph-two font-xxs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        <div class="fl font-xs">
+                            <div class="icons"><i class="fab fa-facebook-f"></i></div>&nbsp;&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-twitter"></i></div>&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-linkedin-in"></i></div>
+                        </div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img class="image-round" src="./assets/img/team/person2.png" alt="John Doe">
+                        </div><br>
+                        <div class="section__item-heading font-md">John Doe</div>
+                        <div class="section__item-paragraph font-xs">UI Designer</div><br>
+                        <div class="section__item-paragraph-two font-xxs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        <div class="fl font-xs">
+                            <div class="icons"><i class="fab fa-facebook-f"></i></div>&nbsp;&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-twitter"></i></div>&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-linkedin-in"></i></div>
+                        </div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img class="image-round" src="./assets/img/team/person3.png" alt="John Doe">
+                        </div><br>
+                        <div class="section__item-heading font-md">John Doe</div>
+                        <div class="section__item-paragraph font-xs">UI Designer</div><br>
+                        <div class="section__item-paragraph-two font-xxs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        <div class="fl font-xs">
+                            <div class="icons"><i class="fab fa-facebook-f"></i></div>&nbsp;&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-twitter"></i></div>&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-linkedin-in"></i></div>
+                        </div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img class="image-round" src="./assets/img/team/person4.png" alt="John Doe">
+                        </div><br>
+                        <div class="section__item-heading font-md">John Doe</div>
+                        <div class="section__item-paragraph font-xs">UI Designer</div><br>
+                        <div class="section__item-paragraph-two font-xxs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        <div class="fl font-xs">
+                            <div class="icons"><i class="fab fa-facebook-f"></i></div>&nbsp;&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-twitter"></i></div>&nbsp;&nbsp;
+                            <div class="icons"><i class="fab fa-linkedin-in"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__stats">
+                <h2 class="section__heading font-xl">Stats & Testimonial</h2>
+                <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <div class="section__content fl-jus-bet">
+                    <div class="section__item fl-dir-col">
+                        <div class="icons font-hd" style="padding-left:15px"><i class="fas fa-puzzle-piece"></i></div>
+                        <div class="section__item-heading font-md">20</div>
+                        <div class="section__item-paragraph font-xs">Products</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="icons font-hd"><i class="fas fa-cloud-download-alt"></i></div>
+                        <div class="section__item-heading font-md">120,000</div>
+                        <div class="section__item-paragraph font-xs">Downloads</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="icons font-hd"><i class="fas fa-users"></i></div>
+                        <div class="section__item-heading font-md">1200</div>
+                        <div class="section__item-paragraph font-xs">Costumers</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="icons font-hd"><i class="fas fa-thumbs-up"></i></div>
+                        <div class="section__item-heading font-md">900</div>
+                        <div class="section__item-paragraph font-xs">Like</div>
+                    </div>
+                </div>
+                <div class="section__content fl-dir-col">
+                    <div class="section__item fl-dir-col">
+                        <div class="section__item-image">
+                            <img class="image-round" src="./assets/img/team/person1.png" alt="John Doe">
+                        </div>
+                        <div class="section__item-heading font-md">John Doe</div>
+                        <div class="section__item-paragraph font-xs">From Wỏdpress</div>
+                        <p class="section__item-paragraph-two font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__contact">
+                <h2 class="section__heading font-xl">Keep in touch with us</h2>
+                <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <div class="section__content fl">
+                    <div class="section__item fl-dir-col">
+                        <div class="icons font-md"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="section__item-heading font-lg">Address</div>
+                        <div class="section__item-paragraph font-xxs">66, Dang Van ngu, Dong Da, Ha noi, Vietnam</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="icons font-md"><i class="fas fa-envelope"></i></div>
+                        <div class="section__item-heading font-lg">E-mail</div>
+                        <div class="section__item-paragraph font-xxs">contact@halovietnam.com</div>
+                    </div>
+                    <div class="section__item fl-dir-col">
+                        <div class="icons font-md"><i class="fas fa-phone-square"></i></div>
+                        <div class="section__item-heading font-lg">Phone</div>
+                        <div class="section__item-paragraph font-xxs">+844 1234 56789</div>
+                    </div>
+                </div>
+                <div class="section__content fl-dir-col">
+                    <div class="fl-dir-col" style="width:100%;padding: 0 20px;">
+                        <input class="input__text font-xs" type="email" placeholder="Email">
+                        <input class="input__text font-xs" type="text" placeholder="Full Name">
+                        <textarea class="input__textarea font-xs" placeholder="Message"></textarea>
+                        <button class="button font-xs">Send Message</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper fl-dir-col">
+            <h2 class="section__heading font-xl">Sign up for our newsletter</h2>
+            <p class="section__paragraph font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+            <div class="footer__content fl-dir-col">
+                <div class="input__form fl">
+                    <input class="input__text font-xs" type="email" placeholder="Email">
+                    <button class="button font-xs">Submit</button>
+                </div>
+                <nav class="footer__nav fl-jus-bet fl-wrap">
+                    <ul class="nav__list">
+                        <li class="nav__list-item">Examples</li>
+                        <li class="nav__list-item">Shop</li>
+                        <li class="nav__list-item">License</li>
+                    </ul>
+                    <ul class="nav__list">
+                        <li class="nav__list-item">Contact</li>
+                        <li class="nav__list-item">About</li>
+                        <li class="nav__list-item">Privacy</li>
+                        <li class="nav__list-item">Terms</li>
+                    </ul>
+                    <ul class="nav__list">
+                        <li class="nav__list-item">Download</li>
+                        <li class="nav__list-item">Support</li>
+                        <li class="nav__list-item">Documents</li>
+                    </ul>
+                    <ul class="nav__list">
+                        <li class="nav__list-item">Media</li>
+                        <li class="nav__list-item">Blog</li>
+                        <li class="nav__list-item">Forums</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+<script src="./assets/js/app.js"></script>
+</body>
+</html>

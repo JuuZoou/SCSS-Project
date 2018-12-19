@@ -1,0 +1,9 @@
+// ___ COLORS FUNCTION
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+};
+
+// __IMAGE URL TEMPALTE
+@function image($image-url) {
+    @return url('/assets/img/' + $image-url + '.png')
+};

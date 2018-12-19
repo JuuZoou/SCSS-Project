@@ -1,0 +1,19 @@
+/*** INPUT FORMS ***/
+.input__text{
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid color(black);
+}
+.input__textarea{
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid color(black);
+}
+.input__text, .input__textarea{
+    color: color(grey);
+    font-family: 'reg';
+    outline: transparent;
+}
+.input__text::placeholder, .input__textarea::placeholder{
+    color: color(grey);
+}

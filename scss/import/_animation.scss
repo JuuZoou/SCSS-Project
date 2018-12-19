@@ -1,0 +1,10 @@
+/*** ANIMATIONS ***/
+@keyframes headerScroll {
+    from{
+        opacity: 1;
+        margin-bottom: 30px;
+    }
+    to {
+        opacity: 0;
+    }
+}

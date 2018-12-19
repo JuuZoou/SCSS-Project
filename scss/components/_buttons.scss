@@ -1,0 +1,15 @@
+/*** BUTTONS ***/
+.button{
+    cursor: pointer;
+    color: color(black);
+    font-family: 'bold';
+    text-transform: uppercase;
+    outline: 1px solid transparent;
+    border: 2px solid color(black);
+    background: transparent;
+
+    &:hover{
+        transition: 0.3s;
+        background-color: color(btn-hover);
+    }
+}
