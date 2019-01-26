@@ -1,3 +1,3 @@
-# SCSS-Project
+# Israeli TechHub SCSS Project
 
-https://juuzoou.github.io/SCSS-Project/app/index.html
+https://juuzoou.github.io/TechHub_Project-SCSS/app/index.html

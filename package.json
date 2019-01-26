@@ -1,7 +1,7 @@
 {
-  "name": "project-scss",
+  "name": "techhub_project-scss",
   "version": "1.0.0",
-  "description": "Environment for SCSS Project",
+  "description": "Environment for TechHub SCSS Project",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "\u0016https://github.com/JuuZoou/SCSS-Project.git"
+    "url": "\u0016https://github.com/JuuZoou/TechHub_Project-SCSS.git"
   },
   "author": "Mikheil Gigauri",
   "license": "ISC",
